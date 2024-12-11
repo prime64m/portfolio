@@ -4,7 +4,12 @@ import React, { useState, useEffect } from 'react';
 import { Github, ExternalLink, Mail, Linkedin, Folder } from 'lucide-react';
 import Image from 'next/image';
 
-const NavLink = ({ href, children }) => (
+interface NavLinkProps {
+  href: string;
+  children: React.ReactNode;
+}
+
+const NavLink = ({ href, children }: NavLinkProps) => (
   <a 
     href={href}
     className="text-gray-400 hover:text-green-400 transition-colors duration-300 text-sm"
