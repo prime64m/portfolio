@@ -207,8 +207,6 @@ const Portfolio = () => {
                             >
                                 <div className="flex items-center mb-2">
                                     <h3 className="text-xl font-bold text-gray-100">{exp.title}</h3>
-                                    <span className="mx-2 text-green-400">@</span>
-                                    <span className="text-green-400">{exp.company}</span>
                                 </div>
                                 <p className="text-sm text-gray-400 mb-4 font-mono">{exp.period}</p>
                                 <ul className="space-y-2">
