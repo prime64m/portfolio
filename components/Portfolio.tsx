@@ -181,7 +181,7 @@ const Portfolio = () => {
         <section id="experience" className="py-20">
           <h2 className="text-2xl font-bold text-gray-100 mb-8 flex items-center">
             <span className="text-green-400 font-mono mr-2">02.</span>
-            Where I've Worked
+            Where I&apos;ve Worked
           </h2>
           <div className="max-w-3xl">
             {experiences.map((exp, index) => (
@@ -212,7 +212,7 @@ const Portfolio = () => {
         <section id="work" className="py-20">
           <h2 className="text-2xl font-bold text-gray-100 mb-12 flex items-center">
             <span className="text-green-400 font-mono mr-2">03.</span>
-            Some Things I've Built
+            Some Things I&apos;ve Built
           </h2>
           <div className="space-y-20">
             {featuredProjects.map((project, index) => (
