@@ -36,8 +36,8 @@ const Portfolio = () => {
             title: "Project Two",
             description: "A Portfolio website for myself, ",
             tech: ["Next.js", "React", "JavaScript", "Tailwind"],
-            github: "https://github.com/prime64m/portfolio",
-            external: "https://prime64m.vercel.app/",
+            github: "https://github.com/prime64m/portfolioa",
+            external: "https://priyansh02.vercel.app/",
         }
     ];
 
